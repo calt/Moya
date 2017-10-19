@@ -69,6 +69,8 @@ your Swift version.
 | 2.3   | 7.0.2 - 7.0.4 | 7.0.2 - 7.0.4 | 7.0.2 - 7.0.4 |
 | 2.2   | <= 7.0.1      | <= 7.0.1      | <= 7.0.1      |
 
+**Upgrading to a new major version of Moya? Check out our [migration guides](https://github.com/Moya/Moya/blob/master/docs/MigrationGuides.md).**
+
 ### Swift Package Manager
 
 To integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:
@@ -291,6 +293,15 @@ Please note that this project is released with a Contributor Code of Conduct. By
 ### Adding new source files
 
 If you add or remove a source file from Moya, a corresponding change needs to be made to the `Moya.xcodeproj` project at the root of this repository. This project is used for Carthage. Don't worry, you'll get an automated warning when submitting a pull request if you forget.
+
+### Help us improve Moya documentation
+Whether you’re a core member or a user trying it out for the first time, you can make a valuable contribution to Moya by improving the documentation. Help us by:
+
+- sending us feedback about something you thought was confusing or simply missing
+- suggesting better wording or ways of explaining certain topics
+- sending us a pull request via GitHub
+- improving the [Chinese documentation](Readme_CN.md)
+
 
 ## License
 
